@@ -5,7 +5,7 @@ const app = express();
 app.listen(3000);
 
 app.get("/", (req, res) => {
-  res.sendFile("/Users/abhishekgoel/Desktop/practiceBackend/views/index.html");
+  res.sendFile("C:\Users\Admin\Downloads\Food App\Food App\practice\poc\views\index.html");
 });
 
 app.get("/about", (req, res) => {
